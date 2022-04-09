@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.txt-sm {
+    font-size: 12px;
+}
+
+form {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+form input {
+    display: block;
+    margin: 10px auto;
+}
