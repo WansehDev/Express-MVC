@@ -4,9 +4,7 @@ const UserController = require('./controllers/UserController');
 
 Router.get('/', UserController.index);
 Router.get('/register', UserController.viewRegisterPage);
-Router.get('/login', UserController.viewLoginPage);
 Router.get('/logoff', UserController.logoff);
-
 
 Router.post('/processRegister', UserController.processRegister)
 ;
